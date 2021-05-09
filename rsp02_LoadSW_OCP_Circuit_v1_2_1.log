@@ -1,0 +1,77 @@
+Circuit: * C:\Users\okays\OneDrive\10_DevTech_GARAGE\SpaceTech_GARAGE\LTSpice\rsp02_LoadSW_OCP_Circuit_v1_2_1\rsp02_LoadSW_OCP_Circuit_v1_2_1.asc
+
+Iload_dc: both pins shorted together -- ignoring.
+Iload_ac: both pins shorted together -- ignoring.
+Model "q1:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "q1:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+WARNING: Less than two connections to node N004.  This node is used by VIOEXPDR_TRAN.
+WARNING: Less than two connections to node N007.  This node is used by VRRX_TRAN.
+WARNING: Less than two connections to node N006.  This node is used by VIN_AC.
+Instance "m:u1:u1:t1:ni2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t2:ni2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t3:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t3:6": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:mp1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t4:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t4:1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:md1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:q1:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:q1:1": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.0043261
+vernier = 0.888888
+vernier = 0.444444
+vernier = 0.222222
+Gmin = 0.00200053
+vernier = 0.111111
+vernier = 0.0555555
+vernier = 0.0277778
+vernier = 0.0138889
+Gmin = 0.00206122
+vernier = 0.00694444
+vernier = 0.00347222
+vernier = 0.00173611
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 0
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:u1:u2:in+)
+Ignoring empty pin current: Ix(u1:u1:u2:in-)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in-)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in-)
+Ignoring empty pin current: Ix(u1:u1:u2:in+)
+Ignoring empty pin current: Ix(u1:u1:u2:in-)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in-)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in-)
+
+Date: Sun May 09 11:46:58 2021
+Total elapsed time: 15.489 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 119924
+traniter = 118157
+tranpoints = 32319
+accept = 23490
+rejected = 8829
+matrix size = 185
+fillins = 162
+solver = Alternate
+Thread vector: 255.9/102.4[3] 84.0/26.8[3] 32.0/18.5[3] 4.4/9.1[1]  2592/500
+Matrix Compiler1: 22.69 KB object code size  50.9/20.2/[20.6]
+Matrix Compiler2: 20.59 KB object code size  10.5/62.7/[4.6]
+
